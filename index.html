@@ -50,8 +50,8 @@ wp:term_idname Is a unique numeric identifier assigned by WordPress to this cate
 <p><strong>dc:creator</strong> Lists the author of the item using the user name found in wp:author_login post. The element is a Dublin Core Rss extension as the Rss specification doesn’t contain any suitable elements for this role.</p>
 <p><strong></strong> Is the globally unique identifier used for the identification of the blog post item by Rss and WordPress clients. The isPermaLink=false attribute just means according to the Rss standard should mean that this identifier is not a legitimate website URL and is not usable in a web browser. Though in WXR the URLs are valid and point to the asset.</p>
 <p><strong></strong> In Rss documents this element contains the synopsis of the item but in WXR it is left blank.</p>
-<p><strong>content:encoded</strong> Is the replacement for the restrictive Rss  element. Enclosed within a character data enclosure is the complete WordPress formatted blog post or page complete with HTML tags and all. For media this contains the Description which is also formatted in HTML.</p>
-<p><strong>excerpt:encoded</strong> This contains a Caption used by media. This is an unknown element. This is a summary or description of the post often used by RSS/Atom feeds.</p>
+<p><strong>wp:content</strong> Is the replacement for the restrictive Rss  element. Enclosed within a character data enclosure is the complete WordPress formatted blog post or page complete with HTML tags and all. For media this contains the Description which is also formatted in HTML.</p>
+<p><strong>wp:description</strong> This contains a Caption used by media. This is an unknown element. This is a summary or description of the post often used by RSS/Atom feeds.</p>
 <p><strong>wp:post_id</strong> This is an auto-incremental, numeric, unique identification number given to each post, article media or page.</p>
 <p><strong>wp:post_date</strong> Time and date that the post item was published to the site.</p>
 <p><strong>wp:post_date_gmt</strong> Time and date in GMT that the post item was published to the site.</p>
